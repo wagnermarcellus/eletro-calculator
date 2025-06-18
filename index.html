@@ -41,10 +41,10 @@
                                     <td colspan="2">Resistência ( <i>R</i> ):</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="text" min="0" name="r" onclick="" onkeyup="ondata(this)"
-                                            autofocus="" class="form-control" required></td>
+                                    <td><input type="number" min="0" name="r" onclick="" onkeyup="ondata(this)"
+                                            autofocus="" class="form-control" placeholder="Resistência em ohms"></td>
                                     <td>
-                                        <select name="cr" onchange="onselchange(this,0);" class="form-control">
+                                        <select name="cr" onchange="onselchange(this,0);" class="form-control" >
                                             <option>miliohms (mΩ)</option>
                                             <option selected="">ohms (Ω)</option>
                                         </select>
@@ -54,10 +54,10 @@
                                     <td colspan="2">Corrente ( <i>I</i> ):</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="text" min="0" step="any" name="i" onclick="ondata(this)"
-                                            onkeyup="ondata(this)" class="form-control"></td>
+                                    <td><input type="number" min="0" step="any" name="i" onclick="ondata(this)"
+                                            onkeyup="ondata(this)" class="form-control" placeholder="Corrente em amperes"></td>
                                     <td>
-                                        <select name="ci" onchange="onselchange(this,1);" class="form-control">
+                                        <select name="ci" onchange="onselchange(this,1);" class="form-control" >
                                             <option>miliamperes (mA)</option>
                                             <option selected="">amperes (A)</option>
                                         </select>
@@ -67,8 +67,8 @@
                                     <td colspan="2">Tensão ( <i>V</i> ):</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="text" min="0" step="any" name="v" onclick="ondata(this)"
-                                            onkeyup="ondata(this)" class="form-control"></td>
+                                    <td><input type="number" min="0" step="any" name="v" onclick="ondata(this)"
+                                            onkeyup="ondata(this)" class="form-control" placeholder="Resultado da Tensão" readonly></td>
                                     <td>
                                         <select name="cv" onchange="onselchange(this,2);" class="form-control">
                                             <option>milivolts (mV)</option>
@@ -102,8 +102,8 @@
                                     <td colspan="2">Tensão ( <i>V</i> ):</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="text" min="0" step="any" name="v" onclick="ondata(this)"
-                                            onkeyup="ondata(this)" class="form-control"></td>
+                                    <td><input type="number" min="0" step="any" name="v" onclick="ondata(this)"
+                                            onkeyup="ondata(this)" class="form-control" placeholder="Tensão em Volts"></td>
                                     <td>
                                         <select name="cv" onchange="onselchange(this,2);" class="form-control">
                                             <option>milivolts (mV)</option>
@@ -115,8 +115,8 @@
                                     <td colspan="2">Resistência ( <i>R</i> ):</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="text" min="0" step="any" name="r" onclick="ondata(this)"
-                                            onkeyup="ondata(this)" autofocus="" class="form-control"></td>
+                                    <td><input type="number" min="0" step="any" name="r" onclick="ondata(this)"
+                                            onkeyup="ondata(this)" autofocus="" class="form-control" placeholder="Resistência em ohms"></td>
                                     <td>
                                         <select name="cr" onchange="onselchange(this,0);" class="form-control">
                                             <option>miliohms (mΩ)</option>
@@ -128,8 +128,8 @@
                                     <td colspan="2">Corrente ( <i>I</i> ):</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="text" min="0" step="any" name="i" onclick="ondata(this)"
-                                            onkeyup="ondata(this)" class="form-control"></td>
+                                    <td><input type="number" min="0" step="any" name="i" onclick="ondata(this)"
+                                            onkeyup="ondata(this)" class="form-control" placeholder="Resultado da Corrente" readonly></td>
                                     <td>
                                         <select name="ci" onchange="onselchange(this,1);" class="form-control">
                                             <option>miliamperes (mA)</option>
@@ -162,8 +162,8 @@
                                     <td colspan="2">Tensão ( <i>V</i> ):</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="text" min="0" step="any" name="v" onclick="ondata(this)"
-                                            onkeyup="ondata(this)" class="form-control"></td>
+                                    <td><input type="number" min="0" step="any" name="v" onclick="ondata(this)"
+                                            onkeyup="ondata(this)" class="form-control" placeholder="Tensão em Volts" autofocus=""></td>
                                     <td>
                                         <select name="cv" onchange="onselchange(this,2);" class="form-control">
                                             <option>milivolts (mV)</option>
@@ -175,9 +175,10 @@
                                     <td colspan="2">Corrente ( <i>I</i> ):</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="text" min="0" step="any" name="i" onclick="ondata(this)"
-                                            onkeyup="ondata(this)" class="form-control"></td>
+                                    <td><input type="number" min="0" step="any" name="i" onclick="ondata(this)"
+                                            onkeyup="ondata(this)" class="form-control" placeholder="Corrente em Volts"></td>
                                     <td>
+                                    
                                         <select name="ci" onchange="onselchange(this,1);" class="form-control">
                                             <option>miliamperes (mA)</option>
                                             <option selected="">amperes (A)</option>
@@ -188,8 +189,8 @@
                                     <td colspan="2">Resistência ( <i>R</i> ):</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="text" min="0" step="any" name="r" onclick="ondata(this)"
-                                            onkeyup="ondata(this)" autofocus="" class="form-control"></td>
+                                    <td><input type="number" min="0" step="any" name="r" onclick="ondata(this)"
+                                            onkeyup="ondata(this)" autofocus="" class="form-control" placeholder="Resultado da Resistência" readonly></td>
                                     <td>
                                         <select name="cr" onchange="onselchange(this,0);" class="form-control">
                                             <option>miliohms (mΩ)</option>
@@ -216,7 +217,7 @@
 
     </div>
     <footer style="display: block; text-align: center;">
-        <p style="top: -100px; position: relative;">
+        <p style="top: -60px; position: relative;">
             © 2025 | Desenvolvido por Wagner Marcellus  <br>
             <a href="https://instagram.com/wagnermarcellus" target="_blank">
                 <i class="fab fa-instagram"></i> Instagram

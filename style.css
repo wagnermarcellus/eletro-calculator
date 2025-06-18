@@ -104,7 +104,11 @@ input {
     background-color: rgba(255, 255, 255, 0.315) !important;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    color: beige;
+    color: beige !important;
+}
+::placeholder {
+    color: #23d5ab !important;
+    opacity: 1 !important; /* Para navegadores modernos */
 }
 i {
     color: #23d5ab;

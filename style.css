@@ -54,6 +54,7 @@ button{
     background-color: #00A3FA !important;
     font-size: 25px !important;
     margin-left: 5px !important;
+    gap:15px;
 }
 
 
@@ -121,4 +122,29 @@ p{
 td {
     color: white;
 }
-
+/***********************************************************/
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  header, footer {
+    text-align: center;
+  }
+  /* Ajuste botões, inputs, etc. */
+  button, input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom:5px;
+  }
+  footer {
+    margin-top: 40px;
+    padding-bottom: 10px;
+    position: static !important;
+  }
+}

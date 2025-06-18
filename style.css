@@ -140,7 +140,7 @@ td {
   button, input {
     width: 100%;
     box-sizing: border-box;
-    margin-bottom:5px;
+    margin-bottom:10px;
   }
   footer {
     margin-top: 180px;

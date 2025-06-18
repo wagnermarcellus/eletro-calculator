@@ -41,7 +41,7 @@ Com essa fórmula, é possível calcular qualquer um dos três valores conhecend
    - 🔥 Corrente (I)
    - 🌀 Resistência (R)
 
-2. Após selecionar, o formulário mostrará os dois campos necessários para o cálculo.
+2. Após selecionar, o formulário mostrará os campos necessários para o cálculo.
 
 3. Preencha os dois valores pedidos e clique no botão **"Calcular"**.
 
@@ -58,7 +58,7 @@ Com essa fórmula, é possível calcular qualquer um dos três valores conhecend
 ## 🔗 Acesse o Projeto Online
 
 Você pode visualizar e usar a calculadora diretamente pelo navegador:  
-👉 [**Abrir Calculadora da Lei de Ohm**](https://wagnermarcellus.github.io/ohm-calculator/) *(abre em nova aba)*
+👉 [**Abrir Calculadora da Lei de Ohm**](https://wagnermarcellus.github.io/eletro-calculator/)
 
 ---
 
